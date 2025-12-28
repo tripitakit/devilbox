@@ -9,6 +9,7 @@ export default defineConfig({
   server: {
     port: 3032,
     host: true,
-    open: false
+    open: true,
+    allowedHosts: ['devilbox.tripitak.it']
   }
 });
